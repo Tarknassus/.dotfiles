@@ -10,7 +10,6 @@
 # Additionally, each config option is also explained in detail
 # on Ghostty's website, at https://ghostty.org/docs/config.
 
-
 # Window Settings
 window-width = 180
 window-height = 50
@@ -22,6 +21,7 @@ window-padding-balance = true
 window-subtitle = working-directory
 window-theme = ghostty
 
+# OSD Settings
 resize-overlay-position = top-right
 
 # Mouse Settings
