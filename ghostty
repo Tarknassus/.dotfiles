@@ -1,0 +1,48 @@
+# This is the configuration file for Ghostty.
+#
+# The template does not set any default options, since Ghostty ships
+# with sensible defaults for all options. Users should only need to set
+# options that they want to change from the default.
+#
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+
+# Window Settings
+window-width = 180
+window-height = 50
+
+window-padding-x = 12
+window-padding-y = 12
+
+window-padding-balance = true
+window-subtitle = working-directory
+window-theme = ghostty
+
+resize-overlay-position = top-right
+
+# Mouse Settings
+mouse-hide-while-typing = true
+
+# Cursor Settings
+cursor-style = block
+cursor-color = #BF616A
+cursor-style-blink = true
+shell-integration-features = no-cursor
+
+# Background Settings
+background-opacity = 0.87
+background-blur = true
+background-blur-radius = 45
+
+# Font Settings
+font-family = "SF Mono"
+font-size = 10
+
+# Theme Settings
+theme = nord
+
+command = TERM=xterm-256color /usr/bin/bash
